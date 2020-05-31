@@ -1,5 +1,5 @@
 # design-pattern-study
-> Study of design pattern implementations.
+tudy of design pattern implementations.
 
 ### Structural Design Patterns ###
 
