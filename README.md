@@ -1,11 +1,11 @@
 # design-pattern-study
 
-## Structural Design Patterns ##
+### Structural Design Patterns ###
 
-[ ] Adapter
-[ ] Bridge
-[ ] Composite
-[ ] Decorator
-[ ] Façade
-[ ] Flyweight
-[ ] Proxy
+- [ ] Adapter
+- [ ] Bridge
+- [ ] Composite
+- [ ] Decorator
+- [ ] Façade
+- [ ] Flyweight
+- [ ] Proxy
