@@ -1,6 +1,9 @@
 using System;
 
-public interface ITarget
+namespace  AdapterPattern.Interfaces 
 {
-    string GetRequesJson();
+    public interface ITarget
+    {
+        string GetRequesJson();
+    }
 }
