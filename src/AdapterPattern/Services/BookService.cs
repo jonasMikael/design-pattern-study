@@ -2,9 +2,9 @@ using System;
 
 namespace AdapterPattern.Services
 {
-    public class BookServices
+    public class BookService
     {
-        public string GetRequesJson()
+        public string GetBooksXML()
         {
             throw new NotImplementedException();
         }
