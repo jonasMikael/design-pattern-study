@@ -3,7 +3,7 @@ using AdapterPattern.Interfaces;
 
 namespace AdapterPattern.Models
 {
-    public class Adapter : ITarget
+    public class AdapterXML : ITarget
     {
         public string GetRequesJson()
         {
