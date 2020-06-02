@@ -1,4 +1,4 @@
-# design-pattern-study
+# Design Pattern Study
 Study of design pattern implementations.
 
 ### Structural Design Patterns ###
