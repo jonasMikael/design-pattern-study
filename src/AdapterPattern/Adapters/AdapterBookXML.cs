@@ -1,6 +1,8 @@
 using System;
+using System.Xml;
 using AdapterPattern.Interfaces;
 using AdapterPattern.Services;
+using Newtonsoft.Json;
 
 namespace AdapterPattern.Adapters
 {
@@ -15,7 +17,8 @@ namespace AdapterPattern.Adapters
 
         public string GetRequesJson()
         {
-            return this._bookService.GetBooksXML();
+            XmlDocument booksXML = this._bookService.GetBooksXML();
+            return JsonConvert.SerializeXmlNode(booksXML);
         }
     }
 } 
