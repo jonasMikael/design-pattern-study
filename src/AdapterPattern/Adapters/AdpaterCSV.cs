@@ -1,7 +1,7 @@
 using System;
 using AdapterPattern.Interfaces;
 
-namespace AdapterPattern.Models
+namespace AdapterPattern.Adapters
 {
     public class AdapterCSV : ITarget
     {

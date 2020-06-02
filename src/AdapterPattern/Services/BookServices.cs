@@ -1,13 +1,12 @@
 using System;
-using AdapterPattern.Interfaces;
 
-namespace AdapterPattern.Models
+namespace AdapterPattern.Services
 {
-    public class AdapterXML : ITarget
+    public class BookServices
     {
         public string GetRequesJson()
         {
             throw new NotImplementedException();
         }
     }
-} 
+}
