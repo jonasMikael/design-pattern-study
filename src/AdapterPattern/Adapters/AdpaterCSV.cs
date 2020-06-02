@@ -5,7 +5,7 @@ namespace AdapterPattern.Adapters
 {
     public class AdapterCSV : ITarget
     {
-        public string GetRequesJson()
+        public string GetRequest()
         {
             throw new NotImplementedException();
         }

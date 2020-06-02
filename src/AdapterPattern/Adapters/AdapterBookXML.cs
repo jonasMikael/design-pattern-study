@@ -15,7 +15,7 @@ namespace AdapterPattern.Adapters
             this._bookService = bookService;
         }
 
-        public string GetRequesJson()
+        public string GetRequest()
         {
             XmlDocument booksXML = this._bookService.GetBooksXML();
             return JsonConvert.SerializeXmlNode(booksXML);

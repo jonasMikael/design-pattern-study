@@ -18,9 +18,7 @@ namespace AdapterPattern
             ITarget target = new AdapterBookXML(bookService);
 
             Console.WriteLine("Json ---");
-
-            Console.WriteLine(target.GetRequesJson());
-
+            Console.WriteLine(target.GetRequest());
             Console.WriteLine("Json ---");
         }
     }
