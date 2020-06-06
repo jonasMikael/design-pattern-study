@@ -1,6 +1,6 @@
 using System;
 
-namespace BridgePattern.Interfaces
+namespace BridgePattern
 {
     public interface IImplementation
     {

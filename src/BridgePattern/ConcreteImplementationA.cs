@@ -1,7 +1,6 @@
 using System;
-using BridgePattern.Interfaces;
 
-namespace BridgePattern.Services
+namespace BridgePattern
 {
     public class ConcreteImplementationA : IImplementation
     {
