@@ -7,7 +7,7 @@ namespace BridgePattern.Services
     {
         public string OperationImplementation()
         {
-            throw new NotImplementedException();
+            return "Result Method OperationImplementation in ConcreteIplementationA Service.";
         }
     }
 }
