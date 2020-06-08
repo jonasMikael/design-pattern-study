@@ -4,7 +4,7 @@ namespace BridgePattern
 {
     public class Abstraction
     {
-        private readonly IImplementation _implementation;
+        protected readonly IImplementation _implementation;
 
         public Abstraction(IImplementation implementation) => this._implementation = implementation;
 
