@@ -11,7 +11,14 @@ Study of design pattern implementations.
     >Identificação: O adapter é reconhecível por um construtor que utiliza uma instância de tipo abstrato/interface diferente. Quando o adaptador recebe uma chamada para qualquer um de seus métodos, ele converte parâmetros para o formato apropriado e direciona a chamada para um ou vários métodos do objeto envolvido.
     
     >Referencia: https://refactoring.guru/design-patterns/adapter/csharp/example
-- [ ] Bridge
+    
+- [X] Bridge
+    >Propósito: Padrão de projeto estrutural que permite que você divida a aplicação entre Abstração e Implementação, podendo assim ser desenvolvidas de forma separadas.
+
+    >Exemplos de Uso: Ao invés de vc ter uma composição com uma relação concreta você pode ter uma relação com baixo acoplamento por via de uma abstração, assim podendo ser estendida como no exemplo implementado, respeitando assim Open Closed Principle.
+    
+    >Referencia: https://refactoring.guru/design-patterns/bridge
+    
 - [ ] Composite
 - [ ] Decorator
 - [ ] Façade
